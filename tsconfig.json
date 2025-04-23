@@ -1,0 +1,27 @@
+ {
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/components/UserDropdown.js", "app/components/Dropdown.js", "app/components/DropdownItem.js", "app/context/SidebarContext.js", "app/context/ThemeContext.js", "app/layout/AppHeader.js", "app/layout/AppSidebar.js", "app/layout/Backdrop.js", "app/common/ChartTab.js", "app/common/ComponentCard.js", "app/common/GridShape.js", "app/common/PageBreadCrumb.js", "app/common/ThemeToggleButton.js", "app/common/ThemeTogglerTwo.js", "app/header/NotificationDropdown.js", "app/header/UserDropdown.js", "app/components/ui/dropdown/Dropdown.js", "app/components/ui/dropdown/DropdownItem.js", "app/icons/index.js", "app/user-profile/UserAddressCard.js", "app/user-profile/UserInfoCard.js", "app/components/hooks/useModal.js", "app/components/ui/button/Button.js", "app/components/ui/modal/index.js", "app/components/ui/table/index.js", "app/components/ui/badge/Badge.js", "app/components/tables/BasicTableTwo.js", "app/components/tables/BasicTableOne.js"],
+  "exclude": ["node_modules"]
+}
