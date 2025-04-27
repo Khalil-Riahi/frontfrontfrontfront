@@ -134,7 +134,7 @@ export function MyCarrousel({subs , descriptions}) {
   //   },
   // ];
 
-  console.log(descriptions)
+  console.log(descriptions) 
 
   return (
     <Carousel opts={{ align: "start" }} className="w-full overflow-visible">

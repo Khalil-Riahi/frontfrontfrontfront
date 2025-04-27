@@ -267,6 +267,9 @@ const RoomCard = ({ room, image ,reservation }) => {
   };
   console.log("selected code "+selectedDate)
 
+  console.log('hhuu')
+  console.log(reservation)
+
   return (
     <div className="flex border rounded-xl overflow-hidden shadow bg-white max-w-full mx-auto my-1">
       {/* Pass selectedTimeRange as a prop to Reserve */}

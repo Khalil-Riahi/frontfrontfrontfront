@@ -44,6 +44,11 @@ const navItems = [
     name: "Reserve a Private Desk",
     path: "/dashboard1/reservePrivatedesk",
   },
+  {
+    icon: <UserCircleIcon />,
+    name: "Reserve a OpenSpace",
+    path: "/dashboard1/reserveopenspace",
+  },
 
   {
     name: "Subscribe",
